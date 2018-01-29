@@ -1,20 +1,20 @@
 # main text of home
-name: Jane Doe
-bio: A Girl who travels the world eating noodles
+name: Joseph Hollowed
+bio: Student in physics and researcher in cosmology
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Personal website of Joe Hollowed
 
 picture: assets/images/picture.jpg
 
-url: http://koppl.in/violet
-# your url: http://USERNAME.github.io
+url: http://joehollowed.com
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-github: mygithub
-email: me@jane.doe
+#facebook: myfacebook
+#twitter: mytwitter
+github: https://github.com/jhollowed
+#linkedin: https://www.linkedin.com/in/joehollowed/
+email: jphollowed@gmail.com
 
 gems:
   - jekyll-seo-tag
