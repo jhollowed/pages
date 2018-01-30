@@ -12,8 +12,8 @@ url: http://joehollowed.com
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
 #twitter: mytwitter
-github: https://github.com/jhollowed
-#linkedin: https://www.linkedin.com/in/joehollowed/
+github: jhollowed
+linkedin: joehollowed
 email: jphollowed@gmail.com
 
 gems:

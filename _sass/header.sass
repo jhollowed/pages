@@ -1,4 +1,5 @@
 header
+  top: $bannerHeight
   width: 200px
   padding: 0 50px 150px 0
   position: relative
@@ -24,3 +25,31 @@ header
 
   small
     font-size: 0.7em
+
+.banner 
+  padding: 0 0px 0px 0
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  width: 100%
+  height: $bannerHeight
+  float: top
+  display: inline-block
+  img
+    width: 100%
+    height: 150px
+    margin-bottom: 0px
+    object-fit: cover
+
+.bannerStrip
+  padding: 0 0px 0px 0
+  position: absolute
+  top: $bannerHeight
+  left: 0
+  right: 0
+  width: 100%
+  height: 3px
+  display: inline-block
+  background-color: $alpha 

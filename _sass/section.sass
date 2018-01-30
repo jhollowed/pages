@@ -1,9 +1,11 @@
 .content
+  position: relative
+  top: $bannerHeight
   @media #{$below}
     font-size: 16px
     max-width: 450px
     margin-top: 50px
-    border-top: 1px solid #382640
+    border-top: 1px solid #777777
     padding: 40px 0 100px
 
   @media #{$above}
@@ -13,6 +15,8 @@
 
 .content p
   margin-bottom: 30px
+  top: $bannerHeight
 
 .content p strong
   font-weight: 600
+  top: $bannerHeight
