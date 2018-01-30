@@ -1,17 +1,11 @@
 # main text of home
 name: Joseph Hollowed
-bio: Student in physics and researcher in cosmology
-
-# twitter summary info
+title: Student Researcher in Cosmological Physics
 description: Personal website of Joe Hollowed
-
 picture: assets/images/picture.jpg
-
 url: http://joehollowed.com
 
-# if you don't have any of social below, comment the line
-#facebook: myfacebook
-#twitter: mytwitter
+#connect
 github: jhollowed
 linkedin: joehollowed
 email: jphollowed@gmail.com
