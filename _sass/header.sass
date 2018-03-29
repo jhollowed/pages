@@ -1,5 +1,13 @@
 header
+
+  // The "header" of my site actually refers to the persistent left side-panel
+  // which contains navigation and my title. The .banner class, below,  is a 
+  // true header which spans the top of the page, and the .bannerStrip class is a 
+  // very thin, solid color page element for separating the banner from the page 
+  // content
+
   top: $bannerHeight
+  font-family: $headerFont
   width: 200px
   padding: 0 50px 150px 0
   position: relative
@@ -11,7 +19,7 @@ header
 
   img
     width: 100%
-    margin-bottom: 20px
+    margin-bottom: 0px
 
   nav ul
     margin-bottom: 20px
@@ -20,7 +28,10 @@ header
     margin-bottom: 10px
 
   p
-    margin-bottom: 20px
+    // The only <p> used in the side-panel is the one that states my title and
+    // location. Font size is smaller, so shrink line height
+    margin-bottom: 10px
+    line-height: 1.2
     width: 80%
 
   small
