@@ -3,11 +3,11 @@ body
   background: #fff
 
 body
-  background: -webkit-linear-gradient(left, #3a3a3a 0%, #404040 100%)
-  background: -moz-linear-gradient(left, #3a3a3a 0%, #404040 100%)
-  background: -o-linear-gradient(left, #3a3a3a 0%, #404040 100%)
-  background: -ms-linear-gradient(left, #3a3a3a 0%, #404040 100%)
-  background: linear-gradient(to right, #3a3a3a 0%, #404040 100%)
+  background: -webkit-linear-gradient(left, $bg_dark 0%, $bg_light 100%)
+  background: -moz-linear-gradient(left, $bg_dark 0%, $bg_light 100%)
+  background: -o-linear-gradient(left, $bg_dark 0%, $bg_light 100%)
+  background: -ms-linear-gradient(left, $bg_dark 0%, $bg_light 100%)
+  background: linear-gradient(to right, $bg_dark 0%, $bg_light 100%)
   color: $beta
   font-family: $font
   font-size: 14px
@@ -17,6 +17,7 @@ body
     margin: 50px 50px 0
 
 a
+  // hyperlinks
   color: $alpha
   text-decoration: none
   font-size: 1em
@@ -27,8 +28,8 @@ a
   transition: all 1s
 
   &:hover
-    color: $gama
-    border-color: $gama
+    color: $gamma
+    border-color: $gamma
 
 h1
   font-size: 23px
@@ -60,7 +61,7 @@ table
   max-width: 1000px
 
 tr:nth-child(even)
-  background: #474747
+  background: $bg_highlight
 
 td
   padding-left: 10px
