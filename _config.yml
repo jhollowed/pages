@@ -2,13 +2,13 @@
 name: Joseph Hollowed
 title: Joseph Hollowed
 description: Personal website of Joseph Hollowed, serving professional and recreational works
-picture: assets/images/picture.jpg
+picture: assets/images/picture.png
 url: http://joehollowed.com
 
 #connect
 github: jhollowed
 linkedin: joehollowed
-email: jphollowed@gmail.com
+email: hollowed@umich.edu
 
 gems:
   - jekyll-seo-tag
