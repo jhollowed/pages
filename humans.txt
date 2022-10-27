@@ -2,7 +2,7 @@
 
 # TEAM
 
-	Joe Hollowed - Argonne National Lab
+	Joe Hollowed - University of Michigan
 
 # TECHNOLOGY
 

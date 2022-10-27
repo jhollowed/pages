@@ -1,9 +1,9 @@
 # main text of home
 name: Joseph Hollowed
 title: Joseph Hollowed
-description: Personal website of Joseph Hollowed, serving professional and recreational works
+description: Personal website of Joseph Hollowed
 picture: assets/images/picture.png
-url: http://joehollowed.com
+url: https://jhollowed.github.io/pages/
 
 #connect
 github: jhollowed
@@ -13,4 +13,5 @@ email: hollowed@umich.edu
 gems:
   - jekyll-seo-tag
 
-exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]
+exclude: [README.md, Gemfile, Gemfile.lock, _site]
+livereload: TRUE
