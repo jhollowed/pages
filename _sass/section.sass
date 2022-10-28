@@ -6,8 +6,8 @@
   position: relative
   top: $bannerHeight
   @media #{$below}
-    font-size: 14px
-    min-width: 200px
+    font-size: $text_fontsize
+    min-width: 400px
     max-width: 1000px
     margin-top: 50px
     border-top: 1px solid $bg_border
@@ -16,10 +16,11 @@
   @media #{$above}
     margin-left: 250px
     font-size: $text_fontsize
-    min-width: 200px
+    min-width: 400px
     max-width: 1000px
 
 .content p
+  padding-left: 30px
   margin-bottom: 10px
   line-height: 1.5
   top: $bannerHeight
