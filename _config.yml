@@ -6,9 +6,10 @@ picture: assets/images/picture.png
 url: https://jhollowed.github.io/pages/
 
 #connect
-github: jhollowed
-linkedin: joehollowed
 email: hollowed@umich.edu
+github: jhollowed
+orcid: 0000-0002-8658-1672
+linkedin: joehollowed
 
 gems:
   - jekyll-seo-tag
