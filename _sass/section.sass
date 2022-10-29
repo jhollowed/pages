@@ -7,25 +7,79 @@
   top: $bannerHeight
   @media #{$below}
     font-size: $text_fontsize
-    min-width: 400px
+    min-width: min(200px, 80vw)
     max-width: 1000px
-    margin-top: 50px
+    //margin-top: 50px
+    margin-top: 0px
     border-top: 1px solid $bg_border
-    padding: 40px 0 100px
+    //padding: 40px 0 100px
+    padding: 0px 0 0px
 
   @media #{$above}
-    margin-left: 250px
     font-size: $text_fontsize
-    min-width: 400px
+    min-width: min(100px, 80vw)
+    margin-left: 250px
     max-width: 1000px
 
 .content p
-  padding-left: 30px
+  padding-left: $main-panel-left-pad
   margin-bottom: 10px
   line-height: 1.5
   top: $bannerHeight
+  //overflow-wrap: break-word
 
 .content p strong
   font-weight: 600
-  font-size: 22px
+  font-size: $title_fontsize
   top: $bannerHeight
+
+.content strong
+  padding-left: $main-panel-left-pad
+
+.content ul
+  padding-left: $main-panel-left-pad
+    
+/////////  table (used for talks page) ///////////////////
+
+.content table
+  padding-left: $main-panel-left-pad
+  width: 95%
+  table-layout: auto
+  margin-right: auto
+
+
+.content tr:nth-child(even)
+  background: $bg_highlight
+
+.content td
+  padding-left: 10px
+  padding-right: 5px
+  padding-bottom: 10px
+  padding-top: 5px
+  font-size: $table_fontsize
+
+.content td.tableHead
+  padding-left: 10px
+  padding-right: 5px
+  padding-bottom: 10px
+  padding-top: 5px
+  font-size: $table_title_fontsize
+  font-weight: bold
+  font-family: $titleFont2
+
+//////// iframes used for embedding slides, docs //////////////
+
+.content iframe
+  width: 90%
+  max-width: 100%
+  min-height: 50vw
+  max-height: 50vw
+  padding-bottom: 5vh
+  display: block
+
+.content div
+  // padding to ensure that div doesn't overlap with side panel padding
+  padding-left: 1em
+  // not needed when main panel is below side panel (narrow displays)
+  @media #{$below}
+    padding-left: 0em

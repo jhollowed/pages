@@ -11,10 +11,11 @@ body
   color: $beta
   font-family: $font
   font-size: $text_fontsize
-  margin: 50px 100px 0
+  margin: 5vh 3vw 0 // set in units of vw for mobile support
 
+  // this active when main panel drops below side panel for narrow displays
   @media #{$below}
-    margin: 50px 50px 0
+    margin: 5vh 10vw 0
 
 a
   // hyperlinks
@@ -32,18 +33,18 @@ a
     border-color: $gamma
 
 h1
-  font-size: 23px
+  font-size: $site_title_fontsize
   margin-bottom: 15px
   line-height: 1.2
   font-family: $titleFont2
 
 strong
   font-weight: bold
-  font-size: 18px
+  font-size: $title_fontsize
   font-family: $titleFont2
 
 strongThin
-  font-size: 16px
+  font-size: $thin_title_fontsize
     
 a
   border: none
@@ -54,33 +55,3 @@ ul
   padding: 0
   line-height: 1 
 
-/////////  table (used for talks page) ///////////////////
-
-table
-  margin-right: auto
-  max-width: 1000px
-  padding-left: 30px
-
-tr:nth-child(even)
-  background: $bg_highlight
-
-td
-  padding-left: 10px
-  padding-right: 5px
-  padding-bottom: 10px
-  padding-top: 5px
-
-.tableHead td
-  padding-bottom: 10px
-
-//////// iframes used for embedding slides, docs //////////////
-
-iframe
-  width: 90%
-  max-width: 100%
-  min-height: 50vw
-  max-height: 50vw
-  display: block
-
-div
-  padding-left: 3em
