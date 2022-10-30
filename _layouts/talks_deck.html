@@ -23,7 +23,7 @@ layout: compress
   </style>
 </head>
 <body>
-  {% assign random = "2,3,4,8,9,10,11,12,14,15" | split: "," % | sample: 1 %}
+  {% assign random = "2,4,8,9,11,14,15" | split: "," % | sample: 1 %}
   {% assign banner="../assets/images/banners/volc-X.jpg" | replace: "X", random %}
   
   {% include sidebar_top.html banner_img=banner %}
