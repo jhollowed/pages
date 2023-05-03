@@ -24,10 +24,10 @@ layout: compress
 </head>
 <body>
   {% assign random = "2,4,8,9,11,14,15" | split: "," % | sample: 1 %}
-  {% assign banner="../assets/images/banners/volc-X.jpg" | replace: "X", random %}
+  {% assign banner="assets/images/banners/volc-X.jpg" | replace: "X", random %}
   
   {% include sidebar_top.html banner_img=banner %}
-  {% include nav_talks_deck.html %}
+  {% include nav_presentations.html %}
   {% include sidebar_bottom.html %}
   {{ content }}
 </body>
