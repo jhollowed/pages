@@ -2,7 +2,7 @@
 ## Building the site
 
 1. [Install Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
-4. `bundle install`
+4. `bundle install --path vendor/bundler`
 5. `./serve.sh`
 6. open in your browser: `http://localhost:4000`
 
